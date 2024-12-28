@@ -1,0 +1,186 @@
+body {
+    background-image: url('./img/p\ \(3\).jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+.background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+main {
+    padding-top: 60px;
+    color: #fff;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    color:rgb(0, 68, 255);
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: none;
+}
+
+.blockquote {
+    color: #fff;
+}
+
+.blockquote-footer {
+    color: #2f00ff;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-label {
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #1100ff;
+    border-color: #4400ff;
+    color: #000;
+}
+
+.btn-primary:hover {
+    background-color: #3200e6;
+    border-color: #5800e6;
+    color: #000;
+}
+
+/* Testimonial styles */
+#testimonials .carousel-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#testimonials .blockquote {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+#testimonials .blockquote-footer {
+    font-size: 0.9rem;
+}
+
+#testimonials p {
+    font-size: 0.9rem;
+}
+
+#testimonials .btn-primary {
+    background-color: rgba(76, 0, 255, 0.7);
+    border-color: #6200ff;
+}
+
+#testimonials .btn-primary:hover {
+    background-color: #4c00ff;
+}
+
+#testimonials .fas {
+    color: #000;
+}
+
+#testimonials .carousel-control-prev,
+#testimonials .carousel-control-next {
+    width: 5%;
+}
+
+#testimonials .carousel-control-prev-icon,
+#testimonials .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* Social links styles */
+.social-links a {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #4400ff !important;
+}
+
+
+/* Contact Us Section Styles */
+#contact h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.contact-item {
+    margin-bottom: 20px;
+}
+
+.contact-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007BFF;
+    transition: color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-link:hover {
+    color: #0056b3;
+}
+
+.contact-link i {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.contact-link p {
+    margin: 0;
+}
+
+.invitation-section {
+    background-color: rgba(0, 0, 0, 0.7); /* Consistent dark section styling */
+    color: #602af3; /* Default white text */
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.invitation-section h2 {
+    font-size: 1.5rem;
+    color: #4400ff; /* Consistent blue shade */
+}
+
+.invitation-section .btn-warning {
+    background-color: #ffd600;
+    border-color: #ffc107;
+}
+
+.invitation-section .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.invitation-section .btn:hover {
+    transform: scale(1.1); /* Slight hover scaling effect */
+    transition: all 0.3s ease;
+}
+
